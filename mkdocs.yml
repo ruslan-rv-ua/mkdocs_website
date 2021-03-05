@@ -1,6 +1,6 @@
 # Project information
-site_name: 'Невізуальний доступ — Зимова школа з дизайну'
-site_description: 'Зимова школа з дизайну'
+site_name: 'Site Name'
+site_description: 'Description'
 site_author: 'Ruslan Iskov'
 
 use_directory_urls: false
@@ -23,21 +23,24 @@ docs_dir: '.\source'
 
 
 # Copyright
-copyright: 'Copyright &copy; Руслан Іськов'
+copyright: 'Copyright &copy; Ruslan Iskov'
 
 # Configuration
 theme:
   name: material
-  # logo: material/library
+  language: uk
+  icon:
+    logo: material/library
   palette:
     scheme: slate # default
     primary: 'black'
     accent: 'yellow'
   features:
+    - header.autohide
     - navigation.instant
-    # - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.sections
+    # or - navigation.tabs
+    # or - navigation.tabs.sticky
+    # - navigation.sections
     - navigation.expand
     # - toc.integrate
 
@@ -54,7 +57,8 @@ plugins: []
 #    collapse_single_pages: true
         
 # Customization
-#extra:
+extra:
+  generator: false
 #   social:
 #    - type: 'github'
 #      link: 'https://github.com/squidfunk'
@@ -73,8 +77,8 @@ plugins: []
 
 # Extensions
 markdown_extensions:
-#  - toc:
-#      permalink: false
+  - toc:
+      permalink: false
   - admonition
   - codehilite:
       guess_lang: false
@@ -99,13 +103,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-  - Автор: "about_me.md"
-  - Але як?: but_how.md
-  - Читачі екрану: screenreader.md
-  - Windows: windows.md
-  - Мобільні платформи: mobile.md
-  - Інші платформи: other_platforms.md
-  - Як працює скрінрідер: screenreader_how_to.md
-  - Спробуй!: try_it.md
-  - Графічний дизайн: graph_design.md
-  - ЧаПи: faq.md
+  - First page: "first_page.md"
+  - Chapter 1:
+    - File 1: file1.md
+    - File 2: file2.md

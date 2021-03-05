@@ -17,8 +17,24 @@ template for creating websites with MkDocs site generator
 	
 	pip install -r requirements.txt
 	
-1. ... to be continued
+1. Run continuous rendering:
+
+	run.bat
 	
+1. Edit `mkdocs.yml`
+
+1. Make files, add navigation in `mkdocs.yml`
+
+1. When ready, build and deploy:
+
+	build.bat
+	git add .
+	git commit
+	git push
+	
+1. Customize repository to publush your site
+	
+
 ## Docs
 
 - [MkDocs](https://www.mkdocs.org/)

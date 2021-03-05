@@ -4,6 +4,11 @@ hide:
 #  - toc        # Hide table of contents
 # https://apps.ucu.edu.ua/design-school-2021/?fbclid=IwAR0qNSbfSszUu94tNZUZhIXYiHROlDD-S0g7FUrFwrzgfita0iv4GS2BOGU
 ---
-# Your new super project!
+# File 1
 
-some smart content
+some content
+
+## Some subheader
+
+:::python
+a = 1
